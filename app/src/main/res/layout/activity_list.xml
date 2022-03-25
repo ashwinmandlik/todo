@@ -14,8 +14,7 @@
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </ListView>
+        android:layout_height="match_parent"></ListView>
 
     <!-- Empty view for the list -->
     <RelativeLayout
@@ -28,11 +27,11 @@
             android:id="@+id/toDo_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="1dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/todolist"/>
+            android:src="@drawable/todolist" />
 
         <TextView
             android:id="@+id/empty_title_text"
@@ -64,11 +63,14 @@
         android:id="@+id/fab"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:background="@color/colorListPrimary"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#450000"
         android:padding="30dp"
-        android:src="@drawable/plus"
-        android:layout_margin="10dp"/>
+        android:src="@drawable/plus" />
 
 </RelativeLayout>

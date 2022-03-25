@@ -16,7 +16,7 @@
         android:text="HEADING"
         android:textSize="35sp"
         android:textAllCaps="true"
-        android:textColor="@color/colorHeading"
+        android:textColor="#3a3b3c"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:textAppearance="?android:textAppearanceMedium"/>
@@ -32,8 +32,8 @@
         android:textAlignment="textStart"
         android:textSize="25sp"
         android:textAppearance="?android:textAppearanceSmall"
-        android:textColor="@color/colorContent"
-        android:textColorHint="@color/colorHint"/>
+        android:textColor="#000"
+        android:textColorHint="#3a3b3c"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -47,11 +47,10 @@
             android:text="SET DATE"
             android:id="@+id/dateButton"
             android:onClick="setDateDialog"
-            android:textColor="@color/colorDateTimeFont"
-            android:background="@color/colorDateTimeBackground"
+            android:textColor="#fff"
+            android:background="@drawable/buttonbg"
             android:layout_margin="5dp"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textSize="20sp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -60,10 +59,9 @@
             android:id="@+id/timeButton"
             android:onClick="setTimeDialog"
             android:textSize="20sp"
-            android:textColor="@color/colorDateTimeFont"
-            android:background="@color/colorDateTimeBackground"
-            android:layout_margin="5dp"
-            android:textStyle="bold"/>
+            android:textColor="#fff"
+            android:background="@drawable/buttonbg"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
@@ -74,9 +72,9 @@
         android:fontFamily="sans-serif-medium"
         android:text="MESSAGE"
         android:textAllCaps="true"
-        android:textColor="@color/colorHeading"
+        android:textColor="#450000"
         android:textStyle="bold"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:paddingTop="10dp"
         android:layout_gravity="center"
         android:textAppearance="?android:textAppearanceMedium"/>
@@ -91,8 +89,8 @@
         android:paddingTop="25dp"
         android:textSize="17sp"
         android:textAppearance="?android:textAppearanceSmall"
-        android:textColor="@color/colorContent"
-        android:textColorHint="@color/colorHint"/>
+        android:textColor="#000"
+        android:textColorHint="#3a3b3c"/>
 
 
 
